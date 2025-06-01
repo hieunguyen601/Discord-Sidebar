@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.sidebar1 {
+    background-color: rgb(20, 19, 19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.image {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.images {
+    margin-top: 30px;
+}
+
+
+.sidebar2 {
+    background-color: rgb(41, 40, 40);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    width: 260px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+}
+
+h3 {
+    margin-right: 50px;
+}
+
+button {
+    border: none;
+    font-size: 30px;
+    background-color: rgb(41, 40, 40);
+    color: rgb(122, 116, 116);
+    cursor: pointer;
+    height: 1px;
+    margin-top: 11px;
+}
+
+.hastag {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    justify-content: space-around;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+p {
+    cursor: pointer;
+}
